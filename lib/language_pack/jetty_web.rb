@@ -8,7 +8,7 @@ module LanguagePack
     include LanguagePack::PackageFetcher
     #include LanguagePack::DatabaseHelpers
 
-    JETTY_VERSION = "9.0.3.v20130506".freeze
+    JETTY_VERSION = "9.2.6.v20141205".freeze
     JETTY_DOWNLOAD = "http://repo2.maven.org/maven2/org/eclipse/jetty/jetty-distribution/#{JETTY_VERSION}/"
     JETTY_PACKAGE =  "jetty-distribution-#{JETTY_VERSION}.tar.gz".freeze
     WEBAPP_DIR = "webapps/ROOT/".freeze
